@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5394058E1772D59E0084F817 /* SpaceshipScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5394058D1772D59E0084F817 /* SpaceshipScene.m */; };
 		53C2E89A17729D6300FD77EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C2E89917729D6300FD77EB /* Foundation.framework */; };
 		53C2E89C17729D6300FD77EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C2E89B17729D6300FD77EB /* CoreGraphics.framework */; };
 		53C2E89E17729D6300FD77EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C2E89D17729D6300FD77EB /* UIKit.framework */; };
@@ -24,6 +25,7 @@
 		53C2E8C217729D6300FD77EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C2E89D17729D6300FD77EB /* UIKit.framework */; };
 		53C2E8CA17729D6300FD77EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53C2E8C817729D6300FD77EB /* InfoPlist.strings */; };
 		53C2E8CC17729D6300FD77EB /* SpriteWalkthroughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C2E8CB17729D6300FD77EB /* SpriteWalkthroughTests.m */; };
+		53C2E8D71772A20600FD77EB /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C2E8D61772A20600FD77EB /* HelloScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5394058C1772D59E0084F817 /* SpaceshipScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceshipScene.h; sourceTree = "<group>"; };
+		5394058D1772D59E0084F817 /* SpaceshipScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceshipScene.m; sourceTree = "<group>"; };
 		53C2E89617729D6300FD77EB /* SpriteWalkthrough.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteWalkthrough.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C2E89917729D6300FD77EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		53C2E89B17729D6300FD77EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +64,8 @@
 		53C2E8C717729D6300FD77EB /* SpriteWalkthroughTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteWalkthroughTests-Info.plist"; sourceTree = "<group>"; };
 		53C2E8C917729D6300FD77EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		53C2E8CB17729D6300FD77EB /* SpriteWalkthroughTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteWalkthroughTests.m; sourceTree = "<group>"; };
+		53C2E8D51772A20600FD77EB /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloScene.h; sourceTree = "<group>"; };
+		53C2E8D61772A20600FD77EB /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,10 @@
 				53C2E8AD17729D6300FD77EB /* Main.storyboard */,
 				53C2E8B017729D6300FD77EB /* SpriteViewController.h */,
 				53C2E8B117729D6300FD77EB /* SpriteViewController.m */,
+				53C2E8D51772A20600FD77EB /* HelloScene.h */,
+				53C2E8D61772A20600FD77EB /* HelloScene.m */,
+				5394058C1772D59E0084F817 /* SpaceshipScene.h */,
+				5394058D1772D59E0084F817 /* SpaceshipScene.m */,
 				53C2E8B317729D6300FD77EB /* SpriteMyScene.h */,
 				53C2E8B417729D6300FD77EB /* SpriteMyScene.m */,
 				53C2E8B617729D6300FD77EB /* Spaceship.png */,
@@ -263,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53C2E8D71772A20600FD77EB /* HelloScene.m in Sources */,
 				53C2E8A817729D6300FD77EB /* main.m in Sources */,
 				53C2E8B517729D6300FD77EB /* SpriteMyScene.m in Sources */,
+				5394058E1772D59E0084F817 /* SpaceshipScene.m in Sources */,
 				53C2E8AC17729D6300FD77EB /* SpriteAppDelegate.m in Sources */,
 				53C2E8B217729D6300FD77EB /* SpriteViewController.m in Sources */,
 			);
@@ -396,6 +408,7 @@
 				INFOPLIST_FILE = "SpriteWalkthrough/SpriteWalkthrough-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,6 +423,7 @@
 				INFOPLIST_FILE = "SpriteWalkthrough/SpriteWalkthrough-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -473,6 +487,7 @@
 				53C2E8D117729D6300FD77EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53C2E8D217729D6300FD77EB /* Build configuration list for PBXNativeTarget "SpriteWalkthroughTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +496,7 @@
 				53C2E8D417729D6300FD77EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
